@@ -1,7 +1,7 @@
 {
 	"manifest_version": 2,
 	"name": "Estudij Tweaks",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"browser_specific_settings": {
 		"gecko": {
 			"id": "{c3c88cf7-0cef-4079-939d-53aeb67cb452}",
