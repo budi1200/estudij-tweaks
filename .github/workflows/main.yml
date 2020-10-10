@@ -24,11 +24,13 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Zip it
-        run: zip -r -FS ./estudijTweaks.zip * --exclude '*.git*'
+        run: |
+          mkdir .build
+          cp !(.*) ./.build
 
       # Runs a set of commands using the runners shell
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v2.2.0
         with:
           name: estudijTweaks
-          path: ./estudijTweaks.zip
+          path: ./.build
