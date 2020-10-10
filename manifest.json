@@ -4,7 +4,7 @@
 	"version": "1.0.0",
 	"browser_specific_settings": {
 		"gecko": {
-			"id": " {c3c88cf7-0cef-4079-939d-53aeb67cb452}",
+			"id": "{c3c88cf7-0cef-4079-939d-53aeb67cb452}",
 			"strict_min_version": "70.0"
 		}
 	},
