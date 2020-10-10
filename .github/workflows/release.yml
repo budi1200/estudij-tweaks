@@ -29,6 +29,7 @@ jobs:
           apiKey: ${{ secrets.AMO_SIGN_KEY }}
           apiSecret: ${{ secrets.AMO_SIGN_SECRET }}
           apiUrlPrefix: https://addons.mozilla.org/api/v4 
+          timeout: 900000
 
       - name: "Create Release"
         uses: softprops/action-gh-release@v1
