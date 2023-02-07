@@ -4,6 +4,7 @@ browser.storage.onChanged.addListener((changes, area) => {
 
 removeCourses = () => {
 	var filter = [
+		"DISKRETNA MATEMATIKA VS",
 		"UVOD V EVOLUCIJSKE ALGORITME",
 		"PRAKTIČNO USPOSABLJANJE",
 		"SOCIOLOŠKI IN POKLICNI VIDIKI",
